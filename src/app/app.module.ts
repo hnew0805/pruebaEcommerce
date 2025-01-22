@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { EcommerceComponent } from './components/ecommerce/ecommerce.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FormsModule } from '@angular/forms';
+import { InicioComponent } from './components/inicio/inicio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EcommerceComponent,
     HeaderComponent,
+    InicioComponent,
     
   ],
   imports: [
